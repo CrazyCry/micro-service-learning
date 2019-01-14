@@ -5,6 +5,7 @@ import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -19,6 +20,7 @@ public class MyFilter extends ZuulFilter {
     @Override
     public String filterType() {
         return PRE_TYPE;//这种类型的过滤器是在请求转发之前进行逻辑判断，实际开发中，可以用此过滤器来进行安全验证。
+//        return FilterConstants.POST_TYPE;
     }
 
     @Override
