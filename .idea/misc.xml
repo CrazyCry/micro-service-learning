@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/feign-client/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-monitor-client/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-zuul-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75e1f773-fe2b-4bad-bef4-8c90c621f4bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-zuul-client/src/main/java/meng/learn/eurekazuulclient/config/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-zuul-client/src/main/java/meng/learn/eurekazuulclient/config/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/shared/config-client-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +21,8 @@
     <ignored path="$PROJECT_DIR$/eureka-feign-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka-monitor-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka-zuul-client/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,58 +31,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-zuul-client/src/main/java/meng/learn/eurekazuulclient/callback/MyFallBackProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-zuul-client/src/main/java/meng/learn/eurekazuulclient/config/MyFilter.java">
+        <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="529">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/meng/learn/eurekaclient/EurekaClientApplication.java">
+        <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="69">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/meng/learn/eurekaclient/controller/HiController.java">
+        <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application-peer1.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="322">
+              <caret line="14" column="30" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -121,7 +99,6 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/euraka-ribbon-client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/euraka-ribbon-client/src/main/java/meng/learn/eurakaribbonclient/controller/RibbonController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-feign-client/src/main/java/meng/learn/feignclient/config/FeignConfig.java" />
         <option value="$PROJECT_DIR$/eureka-feign-client/src/main/java/meng/learn/feignclient/service/HiService.java" />
         <option value="$PROJECT_DIR$/eureka-feign-client/src/main/java/meng/learn/feignclient/controller/HiController.java" />
@@ -141,12 +118,31 @@
         <option value="$PROJECT_DIR$/eureka-zuul-client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka-zuul-client/src/main/java/meng/learn/eurekazuulclient/callback/MyFallBackProvider.java" />
         <option value="$PROJECT_DIR$/eureka-zuul-client/src/main/java/meng/learn/eurekazuulclient/config/MyFilter.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/java/meng/learn/configserver/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/java/meng/learn/configclient/ConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1405" />
-    <option name="y" value="228" />
+    <option name="x" value="-1374" />
+    <option name="y" value="307" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -166,45 +162,50 @@
             <path>
               <item name="springcloudlearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudlearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudlearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudlearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudlearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekazuulclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudlearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="configclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,23 +223,24 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547430457451" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547448587103" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="meng.learn.feignclient.config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\springcloudlearn\config-client\src\main\resources" />
+      <recent name="D:\workspace\springcloudlearn\config-server\src\main\resources" />
       <recent name="D:\workspace\springcloudlearn\euraka-ribbon-client\src\main\java\meng\learn\eurakaribbonclient" />
       <recent name="D:\workspace\springcloudlearn" />
       <recent name="D:\workspace\springcloudlearn\eureka-client\src\main\resources" />
-      <recent name="D:\workspace\springcloudlearn\eureka-server\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="meng.learn.feignclient.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,9 +259,23 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.13149351" />
+    <option name="contentProportion" value="0.34896663" />
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaZuulClientApplication">
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="meng.learn.configclient.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="meng.learn.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurakaRibbonClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="euraka-ribbon-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="meng.learn.eurakaribbonclient.EurakaRibbonClientApplication" />
@@ -333,6 +349,8 @@
       <item itemvalue="Spring Boot.FeignClientApplication" />
       <item itemvalue="Spring Boot.EurekaMonitorClientApplication" />
       <item itemvalue="Spring Boot.EurekaZuulClientApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -349,12 +367,22 @@
       <workItem from="1546996746871" duration="20540000" />
       <workItem from="1547084566506" duration="7324000" />
       <workItem from="1547189776704" duration="6930000" />
-      <workItem from="1547429163289" duration="990000" />
+      <workItem from="1547429163289" duration="1117000" />
+      <workItem from="1547446622085" duration="1968000" />
+      <workItem from="1547448619328" duration="226000" />
     </task>
+    <task id="LOCAL-00001" summary="finish">
+      <created>1547430509592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547430509592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45122000" />
+    <option name="totallyTimeSpent" value="47443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -366,24 +394,24 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.18176973" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.3561786" />
-      <window_info anchor="bottom" id="Spring" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.28431374" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Java Enterprise" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.32843137" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32987553" />
-      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.3707165" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.1879543" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.57117116" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32987553" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.3281412" />
       <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -398,6 +426,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/eureka-server/src/test/java/meng/learn/eurekaserver/EurekaServerApplicationTests.java">
@@ -696,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -712,7 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-zuul-client/src/main/java/meng/learn/eurekazuulclient/callback/MyFallBackProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="391">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -729,7 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/meng/learn/eurekaclient/controller/HiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="207">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -748,11 +773,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-zuul-client/src/main/java/meng/learn/eurekazuulclient/config/MyFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="62">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/shared/config-client-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/meng/learn/configserver/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/meng/learn/configclient/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="30" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
         </state>
       </provider>
     </entry>
