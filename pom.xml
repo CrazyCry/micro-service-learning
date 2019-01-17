@@ -19,6 +19,10 @@
         <module>eureka-monitor-client</module>
         <module>eureka-zuul-client</module>
         <module>zipkin-server</module>
+        <module>user-service</module>
+        <module>gateway-service</module>
+        <module>admin-server</module>
+        <module>eureka-admin-client-one</module>
     </modules>
 
     <parent>

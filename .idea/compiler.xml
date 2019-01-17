@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="admin-server" />
         <module name="config-client" />
         <module name="config-server" />
         <module name="euraka-ribbon-client" />
+        <module name="eureka-admin-client-one" />
         <module name="eureka-client" />
         <module name="eureka-feign-client" />
         <module name="eureka-monitor-client" />
@@ -25,9 +27,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-server" options="-parameters" />
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="euraka-ribbon-client" options="-parameters" />
+      <module name="eureka-admin-client-one" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-feign-client" options="-parameters" />
       <module name="eureka-monitor-client" options="-parameters" />
